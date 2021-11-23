@@ -1,5 +1,21 @@
 {
-    "name": "Jobs Oberpfalz Template",
-    "description": "Theme für das Jobportal www.jobs-oberpfalz.de",
-    "image" : "https://ik.imagekit.io/areya/tr:ar-5-3,w-800/logo_Hbwj3-ZUIa3.png"
+    "information": {
+        "name": "Theme ContentType",
+        "description": "Describe",
+        "image" : "https://media-cdn.tripadvisor.com/media/photo-s/01/4f/2d/ac/bonita-springs.jpg"
+    },
+    "content-types": [
+        {
+            "name":"Car",
+            "slug":"car",
+            "description":"desc car",
+            "fieds": [
+                {
+                    "name": "Brand",
+                    "type": "textField",
+                    "attr": "{'minlength':'30','maxlength':'60'}"
+                }
+            ]
+        }
+    ]
 }
