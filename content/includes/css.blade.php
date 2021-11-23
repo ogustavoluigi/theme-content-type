@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="{{asset('template/css/app.css?v=27149')}}" >
