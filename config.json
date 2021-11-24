@@ -1,7 +1,7 @@
 {
-    "name": "Theme ContentType",
-    "description": "Describe",
-    "image" : "https://media-cdn.tripadvisor.com/media/photo-s/01/4f/2d/ac/bonita-springs.jpg",
+    "name": "ContentType Theme",
+    "description": "Test Theme",
+    "image" : "http://sidroniolima.com.br/blog/wp-content/uploads/2011/05/papel1.jpg",
     "content-types": [
         {
             "slug":"product",
