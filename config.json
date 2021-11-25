@@ -2,7 +2,7 @@
     "name": "ContentType Theme",
     "description": "Test Theme",
     "image": "https://ik.imagekit.io/areya/tr:ar-5-3,w-800/mike-kotsch-9wTWFyInJ4Y-unsplash_WnUv5llwb.jpg?updatedAt=1637846823782",
-    "lumino-version": {"min": "2.1", "max": "2.1"},
+    
     "content-types": [
         {
             "slug":"product",
