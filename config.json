@@ -1,7 +1,7 @@
 {
     "name": "ContentType Theme",
     "description": "Test Theme",
-    "image" : "http://sidroniolima.com.br/blog/wp-content/uploads/2011/05/papel1.jpg",
+    "image" : "https://ik.imagekit.io/areya/tr:ar-5-3,w-800/mike-kotsch-9wTWFyInJ4Y-unsplash_WnUv5llwb.jpg?updatedAt=1637846823782",
     "content-types": [
         {
             "slug":"product",
