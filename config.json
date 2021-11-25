@@ -23,6 +23,13 @@
                     "required": "1"
                 }
             ]
+        },
+        {
+            "slug":"new",
+            "name":"New",
+            "description":"desc new",
+            "icon":"newspaper",
+            "status":"1"
         }
     ]
 }
