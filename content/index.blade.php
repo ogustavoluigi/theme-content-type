@@ -640,7 +640,7 @@
         @endforeach
         ];
     $('.check-branche').change(function(){
-        let url = "{{route('indexTemplate')}}";
+        let url = "{{route('indexTheme')}}";
         let filters = []
         $('.check-branche:checked').each(function(index, item){ filters.push($(item).val()); });
         filters = filters.join('/');
