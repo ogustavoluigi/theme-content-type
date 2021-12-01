@@ -22,6 +22,18 @@
                     "type": "textfield",
                     "attr": "[]",
                     "required": "1"
+                },
+                {
+                    "name": "category",
+                    "type": "select-multiple",
+                    "options": ["item1", "item2", "item3"],
+                    "required": "1"
+                },
+                {
+                    "name": "brand",
+                    "type": "select",
+                    "options": ["Apple", "Google", "Microsoft"],
+                    "required": "1"
                 }
             ]
         },
