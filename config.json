@@ -47,15 +47,15 @@
     ],
     "lists": [
         {
-            "name": "Lista de Produtos",
+            "name": "Produtos da Apple",
             "description": "",
             "search_terms": "",
-            "image": "",
+            "image": "regensburg.jpg",
             "seo_title": "",
             "seo_description": "",
             "blade": "default",
             "content-types": ["Product"],
-            
+            "includes": ["Apple"],
             "sorting": "Created At (DESC)"
         }
     ]
