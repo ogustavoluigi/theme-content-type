@@ -44,5 +44,19 @@
             "icon":"newspaper",
             "status":"1"
         }
+    ],
+    "lists": [
+        {
+            "name": "Lista de Produtos",
+            "description": "",
+            "search_terms": "",
+            "image": "",
+            "seo_title": "",
+            "seo_description": "",
+            "blade": "default",
+            "content-types": ["Product"],
+            
+            "sorting": "Created At (DESC)"
+        }
     ]
 }
