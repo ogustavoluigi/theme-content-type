@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Categoria",
+        "icon": "",
+        "lists": [
+            {
+                "slug": "trabalho",
+                "name": "Trabalho",
+                "description": "Lista de tarefas de trabalho",
+                "search_terms": "",
+                "image": "",
+                "seo_title": "",
+                "seo_description": "",
+                "blade": "default",
+                "sorting_column": "",
+                "sorting_direction": "",
+                "content_types": [
+                    "Tarefa"
+                ],
+                "includes": [
+                    "Trabalho"
+                ],
+                "excludes": []
+            },
+            {
+                "slug": "faculdade",
+                "name": "Faculdade",
+                "description": "Lista de tarefas de faculdade",
+                "search_terms": "",
+                "image": "",
+                "seo_title": "",
+                "seo_description": "",
+                "blade": "default",
+                "sorting_column": "",
+                "sorting_direction": "",
+                "content_types": [
+                    "Tarefa"
+                ],
+                "includes": [
+                    "Faculdade"
+                ],
+                "excludes": []
+            },
+            {
+                "slug": "compromisso",
+                "name": "Compromisso",
+                "description": "Lista de compromissos",
+                "search_terms": "",
+                "image": "",
+                "seo_title": "",
+                "seo_description": "",
+                "blade": "default",
+                "sorting_column": "",
+                "sorting_direction": "",
+                "content_types": [
+                    "Tarefa"
+                ],
+                "includes": [
+                    "Compromisso"
+                ],
+                "excludes": []
+            }
+        ]
+    },
+    {
+        "name": "Urgencia",
+        "icon": "",
+        "lists": [
+            {
+                "slug": "urgente",
+                "name": "Urgente",
+                "description": "Lista de tarefas urgentes",
+                "search_terms": "",
+                "image": "",
+                "seo_title": "",
+                "seo_description": "",
+                "blade": "default",
+                "sorting_column": "",
+                "sorting_direction": "",
+                "content_types": [
+                    "Tarefa"
+                ],
+                "includes": [
+                    "Urgente"
+                ],
+                "excludes": []
+            },
+            {
+                "slug": "nao-urgente",
+                "name": "Nao Urgente",
+                "description": "Lista de tarefas não urgentes",
+                "search_terms": "",
+                "image": "",
+                "seo_title": "",
+                "seo_description": "",
+                "blade": "default",
+                "sorting_column": "",
+                "sorting_direction": "",
+                "content_types": [
+                    "Tarefa"
+                ],
+                "includes": [],
+                "excludes": [
+                    "Urgente",
+                    "Importante"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Importancia",
+        "icon": "",
+        "lists": [
+            {
+                "slug": "importante",
+                "name": "Importante",
+                "description": "Lista de tarefas importantes",
+                "search_terms": "",
+                "image": "",
+                "seo_title": "",
+                "seo_description": "",
+                "blade": "default",
+                "sorting_column": "",
+                "sorting_direction": "",
+                "content_types": [
+                    "Tarefa"
+                ],
+                "includes": [
+                    "Importante"
+                ],
+                "excludes": []
+            },
+            {
+                "slug": "nao-importante",
+                "name": "Nao Importante",
+                "description": "Lista de tarefas não importantes",
+                "search_terms": "",
+                "image": "",
+                "seo_title": "",
+                "seo_description": "",
+                "blade": "default",
+                "sorting_column": "",
+                "sorting_direction": "",
+                "content_types": [
+                    "Tarefa"
+                ],
+                "includes": [
+                    "Nao Importante"
+                ],
+                "excludes": []
+            }
+        ]
+    }
+]

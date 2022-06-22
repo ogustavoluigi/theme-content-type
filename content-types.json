@@ -1,0 +1,28 @@
+[
+    {
+        "name":"Tarefa",
+        "description":"Tarefa",
+        "icon":"tasks",
+        "status":"1",
+        "fields": [
+            {
+                "name": "Categoria",
+                "type": "select",
+                "options": ["Trabalho","Faculdade","Compromisso"],
+                "required": "0"
+            },
+            {
+                "name": "Urgencia",
+                "type": "select",
+                "options": ["Urgente","Nao Urgente"],
+                "required": "0"
+            },
+            {
+                "name": "Importancia",
+                "type": "select",
+                "options": ["Importante","Nao Importante"],
+                "required": "0"
+            }
+        ]
+    }
+]

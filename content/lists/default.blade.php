@@ -20,7 +20,7 @@
             <h4>{{$listGroup->name}}</h4>
             @foreach($listGroup->lists as $listGroupList)
                 <div class="form-check">
-                    <input class="form-check-input check-branche" type="checkbox" value="{{$listGroupList->slug}}" id="flexCheck{{$listGroupList->name}}">
+                    <input class="form-check-input check-branche" type="checkbox" value="{{$listGroupList->slug}}" id="flexCheck{{$listGroupList->name}}" {{$listGroupList->id == $list->id || (!is_null($filters) && in_array($listGroupList->slug, $filters))?"checked":""}}>
                     <label class="form-check-label" for="flexCheck{{$listGroupList->name}}">
                         {{$listGroupList->name}}
                         <span class="badge bg-light text-dark">({{$listGroupList->contents($listGroupList)->count()}} Jobs)</span>
