@@ -1,0 +1,19 @@
+[{
+    "name":"Contents",
+    "status":1,
+    "channels":[
+        {
+            "name":"Job Contents",
+            "type":"api",
+            "status":1,
+            "active":"1",
+            "api-url":"https:\/\/www.jobs-oberpfalz.de\/api\/contents\/jobs",
+            "api-method":"get",
+            "api-auth-type":"bearer-token",
+            "api-auth-token":"sk_live_MiWxBSnOQoAFQFzqVH3DJDhAXJeo8c",
+            "api-body-type":"data",
+            "api-body-data":"[]",
+            "api-header-data":"[]"
+        }
+    ]
+}]
